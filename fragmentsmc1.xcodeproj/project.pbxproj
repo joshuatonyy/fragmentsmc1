@@ -59,9 +59,33 @@
 		4235C9782A9DE45F009DFE58 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4235C9792A9DE5B4009DFE58 /* Assesment */,
 				426088602A9DE10600FD8A52 /* ContentView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4235C9792A9DE5B4009DFE58 /* Assesment */ = {
+			isa = PBXGroup;
+			children = (
+				4235C97B2A9DE5D1009DFE58 /* Component */,
+				4235C97A2A9DE5CB009DFE58 /* View */,
+			);
+			path = Assesment;
+			sourceTree = "<group>";
+		};
+		4235C97A2A9DE5CB009DFE58 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4235C97B2A9DE5D1009DFE58 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 		426088522A9DE10600FD8A52 = {
