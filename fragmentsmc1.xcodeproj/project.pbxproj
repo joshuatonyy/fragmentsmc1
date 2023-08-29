@@ -34,6 +34,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4235C9752A9DE433009DFE58 /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				4260885E2A9DE10600FD8A52 /* fragmentsmc1App.swift */,
+			);
+			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		4235C9762A9DE448009DFE58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4235C9772A9DE452009DFE58 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		4235C9782A9DE45F009DFE58 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				426088602A9DE10600FD8A52 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		426088522A9DE10600FD8A52 = {
 			isa = PBXGroup;
 			children = (
@@ -53,8 +83,10 @@
 		4260885D2A9DE10600FD8A52 /* fragmentsmc1 */ = {
 			isa = PBXGroup;
 			children = (
-				4260885E2A9DE10600FD8A52 /* fragmentsmc1App.swift */,
-				426088602A9DE10600FD8A52 /* ContentView.swift */,
+				4235C9752A9DE433009DFE58 /* Lifecycle */,
+				4235C9762A9DE448009DFE58 /* Models */,
+				4235C9772A9DE452009DFE58 /* ViewModels */,
+				4235C9782A9DE45F009DFE58 /* Views */,
 				426088622A9DE10700FD8A52 /* Assets.xcassets */,
 				426088642A9DE10700FD8A52 /* Preview Content */,
 				8BE183F12A9DE44100C21AEC /* .gitignore */,
