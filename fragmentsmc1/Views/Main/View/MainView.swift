@@ -37,6 +37,7 @@ struct MainView: View {
                 JournalView()
             }
         }
+        
     }
 }
 

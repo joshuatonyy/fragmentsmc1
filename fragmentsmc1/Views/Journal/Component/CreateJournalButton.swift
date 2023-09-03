@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct CreateJournalButton: View {
+    @State private var showSheet = false
+    @State private var showSheet1 = false
+    
     var body: some View {
             VStack {
                 Button {
-                    //
+                    showSheet.toggle()
                 } label: {
                     VStack (spacing: 30) {
                         Image(systemName: "plus")
@@ -20,9 +23,9 @@ struct CreateJournalButton: View {
                             .font(body24)
                     }
                 }
-//                .sheet(isPresented: $showSheet) {
-//                    ModalPickJournalView(showSheet: $showSheet, selectedJournalIndex: $selectedJournalIndex)
-//                }
+                .sheet(isPresented: $showSheet) {
+                    ModalAddNewJournal(showSheet: $showSheet, showSheetCurrent: $showSheet1)
+                }
             }
             .padding(50)
             .frame(maxWidth: .infinity)

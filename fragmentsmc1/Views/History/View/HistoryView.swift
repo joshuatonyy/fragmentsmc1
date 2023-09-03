@@ -41,7 +41,7 @@ struct HistoryView: View {
 
         }
         .padding([.leading, .trailing], 20)
-        .background(Color.Neutral.s20)
+        .background(Color.Neutral.s30)
         
     }
 }

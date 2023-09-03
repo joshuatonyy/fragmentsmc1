@@ -27,6 +27,10 @@
 		8BE184722AA471A900C21AEC /* JournalComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE184712AA471A900C21AEC /* JournalComponent.swift */; };
 		8BE184752AA474A100C21AEC /* CornerRadius+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE184742AA474A100C21AEC /* CornerRadius+Ext.swift */; };
 		8BE184782AA48DC400C21AEC /* CreateJournalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE184772AA48DC400C21AEC /* CreateJournalButton.swift */; };
+		8BE1847B2AA49B4000C21AEC /* ModalAddNewJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE1847A2AA49B4000C21AEC /* ModalAddNewJournal.swift */; };
+		8BE1847F2AA49BF800C21AEC /* ButtonJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE1847E2AA49BF800C21AEC /* ButtonJournal.swift */; };
+		8BE184812AA49E4500C21AEC /* AllButtonJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE184802AA49E4500C21AEC /* AllButtonJournal.swift */; };
+		8BE184832AA4A87300C21AEC /* ModalCustomJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE184822AA4A87300C21AEC /* ModalCustomJournal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +55,10 @@
 		8BE184712AA471A900C21AEC /* JournalComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalComponent.swift; sourceTree = "<group>"; };
 		8BE184742AA474A100C21AEC /* CornerRadius+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CornerRadius+Ext.swift"; sourceTree = "<group>"; };
 		8BE184772AA48DC400C21AEC /* CreateJournalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJournalButton.swift; sourceTree = "<group>"; };
+		8BE1847A2AA49B4000C21AEC /* ModalAddNewJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalAddNewJournal.swift; sourceTree = "<group>"; };
+		8BE1847E2AA49BF800C21AEC /* ButtonJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonJournal.swift; sourceTree = "<group>"; };
+		8BE184802AA49E4500C21AEC /* AllButtonJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllButtonJournal.swift; sourceTree = "<group>"; };
+		8BE184822AA4A87300C21AEC /* ModalCustomJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalCustomJournal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,6 +268,7 @@
 		8BE1846A2AA4714C00C21AEC /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				8BE184792AA49AE900C21AEC /* Modal */,
 				8BE1846E2AA4719600C21AEC /* CircleProgressBar.swift */,
 				8BE184712AA471A900C21AEC /* JournalComponent.swift */,
 				8BE184772AA48DC400C21AEC /* CreateJournalButton.swift */,
@@ -281,6 +290,25 @@
 				8BE184742AA474A100C21AEC /* CornerRadius+Ext.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		8BE184792AA49AE900C21AEC /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				8BE1847C2AA49BD900C21AEC /* ModalComponent */,
+				8BE1847A2AA49B4000C21AEC /* ModalAddNewJournal.swift */,
+				8BE184822AA4A87300C21AEC /* ModalCustomJournal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		8BE1847C2AA49BD900C21AEC /* ModalComponent */ = {
+			isa = PBXGroup;
+			children = (
+				8BE1847E2AA49BF800C21AEC /* ButtonJournal.swift */,
+				8BE184802AA49E4500C21AEC /* AllButtonJournal.swift */,
+			);
+			path = ModalComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,6 +387,7 @@
 				8BE184682AA4676A00C21AEC /* MenuView.swift in Sources */,
 				8BE1846F2AA4719600C21AEC /* CircleProgressBar.swift in Sources */,
 				8BE184612AA45CDA00C21AEC /* ButtonComponent.swift in Sources */,
+				8BE184832AA4A87300C21AEC /* ModalCustomJournal.swift in Sources */,
 				8BE183F52A9DEC8100C21AEC /* ColorTheme.swift in Sources */,
 				426088612A9DE10600FD8A52 /* ContentView.swift in Sources */,
 				8BE183FC2A9DF17400C21AEC /* HistoryView.swift in Sources */,
@@ -366,8 +395,11 @@
 				8BE1846D2AA4718800C21AEC /* JournalView.swift in Sources */,
 				8BE184782AA48DC400C21AEC /* CreateJournalButton.swift in Sources */,
 				8BE183F72A9DF03100C21AEC /* Typography.swift in Sources */,
+				8BE1847F2AA49BF800C21AEC /* ButtonJournal.swift in Sources */,
+				8BE184812AA49E4500C21AEC /* AllButtonJournal.swift in Sources */,
 				8BE184652AA4653000C21AEC /* MainView.swift in Sources */,
 				8BE184062A9F241100C21AEC /* ResultView.swift in Sources */,
+				8BE1847B2AA49B4000C21AEC /* ModalAddNewJournal.swift in Sources */,
 				8BE184012A9F236E00C21AEC /* Journal.swift in Sources */,
 				8BE184752AA474A100C21AEC /* CornerRadius+Ext.swift in Sources */,
 				4260885F2A9DE10600FD8A52 /* fragmentsmc1App.swift in Sources */,

@@ -21,47 +21,48 @@ struct JournalView: View {
     
     var body: some View {
         NavigationStack {
-            GeometryReader { geo in
-                ScrollView {
-                    VStack (spacing: 30) {
-                        JournalComponent(
-                            journalNameTitle: $journalNameTitle,
-                            lastEdited: $lastEdited,
-                            progressBarSize: $progressBarSize,
-                            progress: $progress,
-                            destinationProvider: {
-                                HistoryView()
-                            },
-                            journalColor: journalColor, heightJournal: 280
-                        )
-                        
-                        LazyVGrid(columns: columns, spacing: 30) {
-                            ForEach(0..<10) { index in
-                                JournalComponent(
-                                    journalNameTitle: $journalNameTitle,
-                                    lastEdited: $lastEdited,
-                                    progressBarSize: $progressBarSize,
-                                    progress: $progress,
-                                    destinationProvider: {
-                                        HistoryView()
-                                    },
-                                    journalColor: journalColor,
-                                    heightJournal: 300
-                                )
-                                .padding(index % 2 == 0 ? .trailing : .leading, 10 )
-                            }
+            ScrollView {
+                VStack (spacing: 30) {
+                    JournalComponent(
+                        journalNameTitle: $journalNameTitle,
+                        lastEdited: $lastEdited,
+                        progressBarSize: $progressBarSize,
+                        progress: $progress,
+                        destinationProvider: {
+                            HistoryView()
+                        },
+                        journalColor: journalColor,
+                        heightJournal: 280
+                    )
+                    
+                    LazyVGrid(columns: columns, spacing: 30) {
+                        ForEach(0..<10) { index in
+                            JournalComponent(
+                                journalNameTitle: $journalNameTitle,
+                                lastEdited: $lastEdited,
+                                progressBarSize: $progressBarSize,
+                                progress: $progress,
+                                destinationProvider: {
+                                    HistoryView()
+                                },
+                                journalColor: journalColor,
+                                heightJournal: 300
+                            )
+                            .padding(index % 2 == 0 ? .trailing : .leading, 10 )
                         }
-                        CreateJournalButton()
                     }
-                    
-                    
-                    
+                    CreateJournalButton()
                 }
+                
+                
+                
             }
+            
             
         }
         .padding([.trailing, .leading], 15)
         .padding([.top, .bottom], 10)
+        .background(Color.Neutral.s30)
     }
 }
 
