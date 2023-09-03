@@ -22,6 +22,11 @@
 		8BE184612AA45CDA00C21AEC /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE184602AA45CDA00C21AEC /* ButtonComponent.swift */; };
 		8BE184652AA4653000C21AEC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE184642AA4653000C21AEC /* MainView.swift */; };
 		8BE184682AA4676A00C21AEC /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE184672AA4676A00C21AEC /* MenuView.swift */; };
+		8BE1846D2AA4718800C21AEC /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE1846C2AA4718800C21AEC /* JournalView.swift */; };
+		8BE1846F2AA4719600C21AEC /* CircleProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE1846E2AA4719600C21AEC /* CircleProgressBar.swift */; };
+		8BE184722AA471A900C21AEC /* JournalComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE184712AA471A900C21AEC /* JournalComponent.swift */; };
+		8BE184752AA474A100C21AEC /* CornerRadius+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE184742AA474A100C21AEC /* CornerRadius+Ext.swift */; };
+		8BE184782AA48DC400C21AEC /* CreateJournalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE184772AA48DC400C21AEC /* CreateJournalButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +46,11 @@
 		8BE184602AA45CDA00C21AEC /* ButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponent.swift; sourceTree = "<group>"; };
 		8BE184642AA4653000C21AEC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8BE184672AA4676A00C21AEC /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		8BE1846C2AA4718800C21AEC /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		8BE1846E2AA4719600C21AEC /* CircleProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBar.swift; sourceTree = "<group>"; };
+		8BE184712AA471A900C21AEC /* JournalComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalComponent.swift; sourceTree = "<group>"; };
+		8BE184742AA474A100C21AEC /* CornerRadius+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CornerRadius+Ext.swift"; sourceTree = "<group>"; };
+		8BE184772AA48DC400C21AEC /* CreateJournalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJournalButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,7 @@
 		4235C9752A9DE433009DFE58 /* Lifecycle */ = {
 			isa = PBXGroup;
 			children = (
+				8BE184732AA4749100C21AEC /* Extension */,
 				8BE183F32A9DEC7000C21AEC /* Themes */,
 				4260885E2A9DE10600FD8A52 /* fragmentsmc1App.swift */,
 			);
@@ -81,6 +92,7 @@
 		4235C9782A9DE45F009DFE58 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8BE184692AA4714700C21AEC /* Journal */,
 				8BE184622AA4651B00C21AEC /* Main */,
 				8BE183FD2A9F22B700C21AEC /* Result */,
 				8BE183F82A9DF13C00C21AEC /* History */,
@@ -236,6 +248,41 @@
 			path = Component;
 			sourceTree = "<group>";
 		};
+		8BE184692AA4714700C21AEC /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				8BE1846B2AA4715100C21AEC /* View */,
+				8BE1846A2AA4714C00C21AEC /* Component */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		8BE1846A2AA4714C00C21AEC /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				8BE1846E2AA4719600C21AEC /* CircleProgressBar.swift */,
+				8BE184712AA471A900C21AEC /* JournalComponent.swift */,
+				8BE184772AA48DC400C21AEC /* CreateJournalButton.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		8BE1846B2AA4715100C21AEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BE1846C2AA4718800C21AEC /* JournalView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BE184732AA4749100C21AEC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8BE184742AA474A100C21AEC /* CornerRadius+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -307,17 +354,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE184722AA471A900C21AEC /* JournalComponent.swift in Sources */,
 				8BE183FF2A9F230700C21AEC /* JournalRow.swift in Sources */,
 				8BE184682AA4676A00C21AEC /* MenuView.swift in Sources */,
+				8BE1846F2AA4719600C21AEC /* CircleProgressBar.swift in Sources */,
 				8BE184612AA45CDA00C21AEC /* ButtonComponent.swift in Sources */,
 				8BE183F52A9DEC8100C21AEC /* ColorTheme.swift in Sources */,
 				426088612A9DE10600FD8A52 /* ContentView.swift in Sources */,
 				8BE183FC2A9DF17400C21AEC /* HistoryView.swift in Sources */,
 				8BE1845F2AA45BD500C21AEC /* ResultComponent.swift in Sources */,
+				8BE1846D2AA4718800C21AEC /* JournalView.swift in Sources */,
+				8BE184782AA48DC400C21AEC /* CreateJournalButton.swift in Sources */,
 				8BE183F72A9DF03100C21AEC /* Typography.swift in Sources */,
 				8BE184652AA4653000C21AEC /* MainView.swift in Sources */,
 				8BE184062A9F241100C21AEC /* ResultView.swift in Sources */,
 				8BE184012A9F236E00C21AEC /* Journal.swift in Sources */,
+				8BE184752AA474A100C21AEC /* CornerRadius+Ext.swift in Sources */,
 				4260885F2A9DE10600FD8A52 /* fragmentsmc1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
