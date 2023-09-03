@@ -14,7 +14,7 @@ struct MainView: View {
             GeometryReader { geometry in
                 ZStack{
                     List {
-                        MenuView(image: Image(systemName: "book.closed"), label: "Journals", destination: HistoryView(), imageSize: 32)
+                        MenuView(image: Image(systemName: "book.closed"), label: "Journals", destination: JournalView(), imageSize: 32)
                         MenuView(image: Image(systemName: "books.vertical"), label: "History", destination: HistoryView() ,imageSize: 24)
                         MenuView(image: Image(systemName: "list.clipboard"), label: "Result", destination: ResultView(dateNow: Date.now), imageSize: 32)
                     }
@@ -34,7 +34,7 @@ struct MainView: View {
             }
         } detail: {
             VStack {
-                HistoryView()
+                JournalView()
             }
         }
     }
