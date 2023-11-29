@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		424910DD2AA4882D004357AC /* AssessmentQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910D52AA4882D004357AC /* AssessmentQuestion.swift */; };
+		424910DE2AA4882D004357AC /* AssessmentCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910D62AA4882D004357AC /* AssessmentCategory.swift */; };
+		424910DF2AA4882D004357AC /* AssessmentResultRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910D72AA4882D004357AC /* AssessmentResultRepository.swift */; };
+		424910E02AA4882D004357AC /* AssessmentResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910D82AA4882D004357AC /* AssessmentResult.swift */; };
+		424910E12AA4882D004357AC /* AssessmentQuestionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910D92AA4882D004357AC /* AssessmentQuestionRepository.swift */; };
+		424910E22AA4882D004357AC /* AsssessmentAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910DA2AA4882D004357AC /* AsssessmentAnswer.swift */; };
+		424910E32AA4882D004357AC /* AssessmentRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910DB2AA4882D004357AC /* AssessmentRepository.swift */; };
+		424910E42AA4882D004357AC /* AssessmentAnswerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910DC2AA4882D004357AC /* AssessmentAnswerRepository.swift */; };
+		424910E62AA48841004357AC /* AssessmentViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910E52AA48841004357AC /* AssessmentViewModels.swift */; };
+		424910E92AA48859004357AC /* MultipleChoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910E72AA48858004357AC /* MultipleChoices.swift */; };
+		424910EA2AA48859004357AC /* MultipleChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910E82AA48859004357AC /* MultipleChoice.swift */; };
+		424910EC2AA48864004357AC /* AssesmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910EB2AA48864004357AC /* AssesmentView.swift */; };
+		424910F02AA488FA004357AC /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910EE2AA488FA004357AC /* OnboardingView.swift */; };
+		424910F12AA488FA004357AC /* PreSelfAssesment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910EF2AA488FA004357AC /* PreSelfAssesment.swift */; };
+		424910F42AA4894A004357AC /* CircleButtonNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910F32AA4894A004357AC /* CircleButtonNext.swift */; };
+		424910F62AA48B23004357AC /* UserDefaultForUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910F52AA48B23004357AC /* UserDefaultForUser.swift */; };
+		424910FC2AA4933B004357AC /* Fragments.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 424910FA2AA4933B004357AC /* Fragments.xcdatamodeld */; };
+		424910FF2AA493AB004357AC /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910FD2AA493AB004357AC /* DataController.swift */; };
+		424911002AA493AB004357AC /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424910FE2AA493AB004357AC /* CoreDataManager.swift */; };
+		424911042AA4972A004357AC /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424911032AA4972A004357AC /* SplashScreen.swift */; };
+		4249110B2AA49E2B004357AC /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249110A2AA49E2B004357AC /* CanvasViewController.swift */; };
+		4249110D2AA49F32004357AC /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249110C2AA49F32004357AC /* DrawingView.swift */; };
+		424911122AA4A277004357AC /* AddNewCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424911112AA4A277004357AC /* AddNewCanvasView.swift */; };
+		424911142AA4AA65004357AC /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424911132AA4AA65004357AC /* PersistenceController.swift */; };
 		4260885F2A9DE10600FD8A52 /* fragmentsmc1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4260885E2A9DE10600FD8A52 /* fragmentsmc1App.swift */; };
 		426088612A9DE10600FD8A52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426088602A9DE10600FD8A52 /* ContentView.swift */; };
 		426088632A9DE10700FD8A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426088622A9DE10700FD8A52 /* Assets.xcassets */; };
@@ -30,6 +54,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		424910D52AA4882D004357AC /* AssessmentQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessmentQuestion.swift; sourceTree = "<group>"; };
+		424910D62AA4882D004357AC /* AssessmentCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessmentCategory.swift; sourceTree = "<group>"; };
+		424910D72AA4882D004357AC /* AssessmentResultRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessmentResultRepository.swift; sourceTree = "<group>"; };
+		424910D82AA4882D004357AC /* AssessmentResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessmentResult.swift; sourceTree = "<group>"; };
+		424910D92AA4882D004357AC /* AssessmentQuestionRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessmentQuestionRepository.swift; sourceTree = "<group>"; };
+		424910DA2AA4882D004357AC /* AsssessmentAnswer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsssessmentAnswer.swift; sourceTree = "<group>"; };
+		424910DB2AA4882D004357AC /* AssessmentRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessmentRepository.swift; sourceTree = "<group>"; };
+		424910DC2AA4882D004357AC /* AssessmentAnswerRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssessmentAnswerRepository.swift; sourceTree = "<group>"; };
+		424910E52AA48841004357AC /* AssessmentViewModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssessmentViewModels.swift; path = "../../../Percobaan lain/MiniChallenge4 copy/MiniChallenge1/Features/SelfAssessment/ViewModels/AssessmentViewModels.swift"; sourceTree = "<group>"; };
+		424910E72AA48858004357AC /* MultipleChoices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoices.swift; sourceTree = "<group>"; };
+		424910E82AA48859004357AC /* MultipleChoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleChoice.swift; sourceTree = "<group>"; };
+		424910EB2AA48864004357AC /* AssesmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssesmentView.swift; sourceTree = "<group>"; };
+		424910EE2AA488FA004357AC /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		424910EF2AA488FA004357AC /* PreSelfAssesment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreSelfAssesment.swift; sourceTree = "<group>"; };
+		424910F32AA4894A004357AC /* CircleButtonNext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButtonNext.swift; sourceTree = "<group>"; };
+		424910F52AA48B23004357AC /* UserDefaultForUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultForUser.swift; sourceTree = "<group>"; };
+		424910FB2AA4933B004357AC /* Fragments.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fragments.xcdatamodel; sourceTree = "<group>"; };
+		424910FD2AA493AB004357AC /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		424910FE2AA493AB004357AC /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		424911032AA4972A004357AC /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		4249110A2AA49E2B004357AC /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		4249110C2AA49F32004357AC /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		424911112AA4A277004357AC /* AddNewCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCanvasView.swift; sourceTree = "<group>"; };
+		424911132AA4AA65004357AC /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		4260885B2A9DE10600FD8A52 /* fragmentsmc1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fragmentsmc1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4260885E2A9DE10600FD8A52 /* fragmentsmc1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fragmentsmc1App.swift; sourceTree = "<group>"; };
 		426088602A9DE10600FD8A52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,8 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				8BE184732AA4749100C21AEC /* Extension */,
+				424910F82AA48E58004357AC /* Utilities */,
+				424910F72AA48B94004357AC /* Applications */,
 				8BE183F32A9DEC7000C21AEC /* Themes */,
-				4260885E2A9DE10600FD8A52 /* fragmentsmc1App.swift */,
 			);
 			path = Lifecycle;
 			sourceTree = "<group>";
@@ -77,6 +126,7 @@
 		4235C9762A9DE448009DFE58 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				424910D32AA487F0004357AC /* Assesment */,
 				8BE184002A9F236E00C21AEC /* Journal.swift */,
 			);
 			path = Models;
@@ -85,6 +135,7 @@
 		4235C9772A9DE452009DFE58 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				424910D42AA487FE004357AC /* Assesment */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -92,7 +143,10 @@
 		4235C9782A9DE45F009DFE58 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				424911052AA49B24004357AC /* Canvas */,
+				424911012AA4970F004357AC /* SplashScreen */,
 				8BE184692AA4714700C21AEC /* Journal */,
+				424910ED2AA4889A004357AC /* Onboarding */,
 				8BE184622AA4651B00C21AEC /* Main */,
 				8BE183FD2A9F22B700C21AEC /* Result */,
 				8BE183F82A9DF13C00C21AEC /* History */,
@@ -114,6 +168,7 @@
 		4235C97A2A9DE5CB009DFE58 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				424910EB2AA48864004357AC /* AssesmentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,8 +176,143 @@
 		4235C97B2A9DE5D1009DFE58 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				424910E82AA48859004357AC /* MultipleChoice.swift */,
+				424910E72AA48858004357AC /* MultipleChoices.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		424910D32AA487F0004357AC /* Assesment */ = {
+			isa = PBXGroup;
+			children = (
+				424910DC2AA4882D004357AC /* AssessmentAnswerRepository.swift */,
+				424910D62AA4882D004357AC /* AssessmentCategory.swift */,
+				424910D52AA4882D004357AC /* AssessmentQuestion.swift */,
+				424910D92AA4882D004357AC /* AssessmentQuestionRepository.swift */,
+				424910DB2AA4882D004357AC /* AssessmentRepository.swift */,
+				424910D82AA4882D004357AC /* AssessmentResult.swift */,
+				424910D72AA4882D004357AC /* AssessmentResultRepository.swift */,
+				424910DA2AA4882D004357AC /* AsssessmentAnswer.swift */,
+			);
+			path = Assesment;
+			sourceTree = "<group>";
+		};
+		424910D42AA487FE004357AC /* Assesment */ = {
+			isa = PBXGroup;
+			children = (
+				424910E52AA48841004357AC /* AssessmentViewModels.swift */,
+			);
+			name = Assesment;
+			sourceTree = "<group>";
+		};
+		424910ED2AA4889A004357AC /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				424910F22AA48908004357AC /* View */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		424910F22AA48908004357AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				424910EE2AA488FA004357AC /* OnboardingView.swift */,
+				424910EF2AA488FA004357AC /* PreSelfAssesment.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		424910F72AA48B94004357AC /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				424910F52AA48B23004357AC /* UserDefaultForUser.swift */,
+				4260885E2A9DE10600FD8A52 /* fragmentsmc1App.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		424910F82AA48E58004357AC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				424910F92AA49324004357AC /* CoreData */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		424910F92AA49324004357AC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				424910FA2AA4933B004357AC /* Fragments.xcdatamodeld */,
+				424910FE2AA493AB004357AC /* CoreDataManager.swift */,
+				424910FD2AA493AB004357AC /* DataController.swift */,
+				424911132AA4AA65004357AC /* PersistenceController.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		424911012AA4970F004357AC /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				424911022AA49718004357AC /* View */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		424911022AA49718004357AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				424911032AA4972A004357AC /* SplashScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		424911052AA49B24004357AC /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				424911072AA49B59004357AC /* Component */,
+				424911062AA49B3A004357AC /* View */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		424911062AA49B3A004357AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4249110C2AA49F32004357AC /* DrawingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		424911072AA49B59004357AC /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				4249110E2AA4A254004357AC /* AddNewModal */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		424911082AA49DE9004357AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				424911092AA49DFA004357AC /* Canvas */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		424911092AA49DFA004357AC /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				4249110A2AA49E2B004357AC /* CanvasViewController.swift */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		4249110E2AA4A254004357AC /* AddNewModal */ = {
+			isa = PBXGroup;
+			children = (
+				424911112AA4A277004357AC /* AddNewCanvasView.swift */,
+			);
+			path = AddNewModal;
 			sourceTree = "<group>";
 		};
 		426088522A9DE10600FD8A52 = {
@@ -146,6 +336,7 @@
 			children = (
 				4235C9752A9DE433009DFE58 /* Lifecycle */,
 				4235C9762A9DE448009DFE58 /* Models */,
+				424911082AA49DE9004357AC /* Controllers */,
 				4235C9772A9DE452009DFE58 /* ViewModels */,
 				4235C9782A9DE45F009DFE58 /* Views */,
 				426088622A9DE10700FD8A52 /* Assets.xcassets */,
@@ -168,6 +359,7 @@
 			children = (
 				8BE183F42A9DEC8100C21AEC /* ColorTheme.swift */,
 				8BE183F62A9DF03100C21AEC /* Typography.swift */,
+				424910F32AA4894A004357AC /* CircleButtonNext.swift */,
 			);
 			path = Themes;
 			sourceTree = "<group>";
@@ -354,23 +546,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424910FF2AA493AB004357AC /* DataController.swift in Sources */,
 				8BE184722AA471A900C21AEC /* JournalComponent.swift in Sources */,
+				424910DD2AA4882D004357AC /* AssessmentQuestion.swift in Sources */,
+				424910E12AA4882D004357AC /* AssessmentQuestionRepository.swift in Sources */,
+				4249110B2AA49E2B004357AC /* CanvasViewController.swift in Sources */,
 				8BE183FF2A9F230700C21AEC /* JournalRow.swift in Sources */,
 				8BE184682AA4676A00C21AEC /* MenuView.swift in Sources */,
+				424911002AA493AB004357AC /* CoreDataManager.swift in Sources */,
 				8BE1846F2AA4719600C21AEC /* CircleProgressBar.swift in Sources */,
 				8BE184612AA45CDA00C21AEC /* ButtonComponent.swift in Sources */,
+				424910FC2AA4933B004357AC /* Fragments.xcdatamodeld in Sources */,
+				424911122AA4A277004357AC /* AddNewCanvasView.swift in Sources */,
 				8BE183F52A9DEC8100C21AEC /* ColorTheme.swift in Sources */,
 				426088612A9DE10600FD8A52 /* ContentView.swift in Sources */,
+				424910E02AA4882D004357AC /* AssessmentResult.swift in Sources */,
 				8BE183FC2A9DF17400C21AEC /* HistoryView.swift in Sources */,
+				424910DF2AA4882D004357AC /* AssessmentResultRepository.swift in Sources */,
+				424910E92AA48859004357AC /* MultipleChoices.swift in Sources */,
+				424910E32AA4882D004357AC /* AssessmentRepository.swift in Sources */,
+				424911142AA4AA65004357AC /* PersistenceController.swift in Sources */,
+				4249110D2AA49F32004357AC /* DrawingView.swift in Sources */,
+				424910DE2AA4882D004357AC /* AssessmentCategory.swift in Sources */,
 				8BE1845F2AA45BD500C21AEC /* ResultComponent.swift in Sources */,
 				8BE1846D2AA4718800C21AEC /* JournalView.swift in Sources */,
 				8BE184782AA48DC400C21AEC /* CreateJournalButton.swift in Sources */,
 				8BE183F72A9DF03100C21AEC /* Typography.swift in Sources */,
 				8BE184652AA4653000C21AEC /* MainView.swift in Sources */,
+				424910EA2AA48859004357AC /* MultipleChoice.swift in Sources */,
+				424911042AA4972A004357AC /* SplashScreen.swift in Sources */,
 				8BE184062A9F241100C21AEC /* ResultView.swift in Sources */,
+				424910F02AA488FA004357AC /* OnboardingView.swift in Sources */,
+				424910F42AA4894A004357AC /* CircleButtonNext.swift in Sources */,
+				424910F12AA488FA004357AC /* PreSelfAssesment.swift in Sources */,
+				424910F62AA48B23004357AC /* UserDefaultForUser.swift in Sources */,
 				8BE184012A9F236E00C21AEC /* Journal.swift in Sources */,
 				8BE184752AA474A100C21AEC /* CornerRadius+Ext.swift in Sources */,
 				4260885F2A9DE10600FD8A52 /* fragmentsmc1App.swift in Sources */,
+				424910EC2AA48864004357AC /* AssesmentView.swift in Sources */,
+				424910E42AA4882D004357AC /* AssessmentAnswerRepository.swift in Sources */,
+				424910E62AA48841004357AC /* AssessmentViewModels.swift in Sources */,
+				424910E22AA4882D004357AC /* AsssessmentAnswer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,6 +787,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		424910FA2AA4933B004357AC /* Fragments.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				424910FB2AA4933B004357AC /* Fragments.xcdatamodel */,
+			);
+			currentVersion = 424910FB2AA4933B004357AC /* Fragments.xcdatamodel */;
+			path = Fragments.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 426088532A9DE10600FD8A52 /* Project object */;
 }
